@@ -1,0 +1,19 @@
+DATA:
+  stride: 1
+  window_size: 320
+
+MODEL:
+  hidden_c: 32
+  in_c: 51
+  latent_c: 16
+
+TRAIN:
+  batchsize: 1024
+  epochs: 200
+  lr: 0.001
+  min_lr: 0.0001
+  device: 'cuda:1'
+  warmup_ratio: 0.1
+
+SAVE:
+  savedir: ./save_models

@@ -1,1 +1,2 @@
-# IITP_temp
+# BeatGAN
+Anomaly Detection Method BeatGAN with SWaT dataset 
